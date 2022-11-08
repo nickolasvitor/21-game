@@ -1,0 +1,51 @@
+<head>
+    <title>Jogue 21!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script  type="text/javascript" src="api.js"></script>
+
+    </head>
+
+    <body>
+
+    <video style="z-index:-1;" autoplay muted loop id="myVideo">
+      <source src="ahaa_Designs220329003.mp4" type="video/mp4">
+    </video>
+
+
+
+    <div style="margin-top: 20px;"class="centralizar">
+            <h2>Carta atual:</h2>
+    </div>
+    <div class="centralizar">
+    <img id="my_image" class="img-fluid">
+    </div>
+
+
+
+    <div class="centralizar">
+        <h4>Últimas cartas:</h4>
+    </div>
+    <div id="my_array" class="centralizar1">
+    
+    </div>
+
+    <div class="centralizar">
+       <p id="somaTotal"></p>
+       <p id="cartasrestantes"></p>
+    </div>
+
+    <div class="centralizar">
+    <button id="myBtn" onclick="NovaCarta()">Nova Carta</button>
+    </div>
+
+    <div class="centralizar">
+        <button id="myBtn" onClick="window.location.reload();">Reiniciar</button>
+        </div>
+
+    </body>
